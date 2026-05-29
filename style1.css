@@ -268,3 +268,25 @@ span{
         margin-top: 4rem;
     }
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .nav {
+    flex-direction: column;
+  }
+}
+
+
